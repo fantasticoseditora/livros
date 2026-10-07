@@ -8,4 +8,6 @@ Nunca publique o texto integral do conto, PDF, EPUB ou link editorial de acesso 
 
 Dados comerciais: Ugo Leão (sem H), R$ 79,90, frete econômico incluso para todo o Brasil, pré-venda até 19/10/2026 às 23:59:59 de São Paulo. Não invente fatos, depoimentos, vendas ou urgência.
 
+Orientação mais recente do editor (07/10/2026): não exibir preço na landing page, nos metadados nem nos botões; o valor é apresentado pelo checkout do Mercado Pago. Manter os cinco CTAs ativos e com fonte ampliada. Esta orientação substitui as exigências anteriores de exibição do preço.
+
 Somente após aprovação editorial explícita atualize o manifesto para `aprovado_para_publicacao` e gere os bônus.

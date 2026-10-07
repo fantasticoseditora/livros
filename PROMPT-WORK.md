@@ -4,6 +4,10 @@ PROJETO: PRÉ-VENDA — CRÔNICAS MESOPOTÂMICAS: DEUSES FAMINTOS
 Autor: Ugo Leão
 Editora: Fantásticos
 
+## Orientação vigente — 07/10/2026
+
+Por solicitação posterior do editor, retirar o preço de toda a landing page, dos metadados e dos cinco CTAs de compra. O valor comercial permanece no checkout do Mercado Pago. Ampliar a fonte dos botões de compra para 20 px no desktop e 18 px no mobile. Esta orientação prevalece sobre as instruções de exibição de preço abaixo.
+
 ## OBJETIVO
 
 Criar, publicar e testar no GitHub Pages a página oficial de pré-venda de **Crônicas Mesopotâmicas — Deuses Famintos**, de **Ugo Leão**, além da página pós-compra que será usada como redirecionamento do Mercado Pago.

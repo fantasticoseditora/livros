@@ -58,3 +58,7 @@ A foto solicitada ainda depende da identificação do arquivo: o documento Pref�
 - Pós-compra mantém noindex,nofollow,noarchive; capa e logo originais preservados.
 - O Mercado Pago apresentou erro genérico de acesso no navegador remoto, mesmo após uma atualização da página. Não foi possível verificar a tela de checkout nem fazer uma compra; o destino dos CTAs corresponde ao link do editor.
 - Recursos CSS e JS usam versão na URL para evitar cache da configuração anterior. Atualizar a versão ao publicar mudanças nesses arquivos.
+
+## Ajuste de exibição — 07/10/2026
+
+Preço removido de toda a landing, metadados e botões por solicitação do editor. Cinco CTAs mantidos com o checkout informado. Fonte dos CTAs: 20 px no desktop e 18 px no mobile; altura mínima de 60 px.
