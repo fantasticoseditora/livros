@@ -1,0 +1,34 @@
+{
+  "projeto": "Crônicas Mesopotâmicas — Deuses Famintos",
+  "autor": "Ugo Leão",
+  "editora": "Fantásticos",
+  "diretorio_canonico": "/cronicas-mesopotamicas/referencias-oficiais/",
+  "regras": {
+    "consultar_antes_de_qualquer_alteracao": true,
+    "nao_reconstruir_capa_com_ia": true,
+    "nao_reconstruir_logo_com_ia": true,
+    "preservar_iluminacao_capa": true,
+    "conto_pode_ser_publicado": false,
+    "nao_copiar_texto_integral_do_conto_para_repo_publico": true
+  },
+  "ativos": {
+    "capa": {
+      "arquivo": "capa-aprovada-cronicas-mesopotamicas.png",
+      "status": "aprovada"
+    },
+    "logo": {
+      "arquivo": "logo-fantasticos-original.jpg",
+      "status": "fonte_oficial"
+    },
+    "arte_base": {
+      "arquivo": "arte-original-sem-tipografia.png",
+      "status": "referencia_original"
+    },
+    "conto": {
+      "arquivo_referencia": "conto-a-epifania-do-escriba-FONTE.md",
+      "status": "provisorio_nao_publicar",
+      "fonte_drive": "https://docs.google.com/document/d/16H3tnAh7Hp6uNk50v0AWcYWUVrC7Dm9BDJlM7eezmJA/edit?usp=drivesdk",
+      "observacao": "Aguardar versão revisada por Ugo Leão antes de gerar PDF/EPUB. O texto integral permanece no Drive para não vazar em repositório público."
+    }
+  }
+}
