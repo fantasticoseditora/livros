@@ -9,7 +9,8 @@
     "nao_reconstruir_logo_com_ia": true,
     "preservar_iluminacao_capa": true,
     "conto_pode_ser_publicado": true,
-    "nao_copiar_texto_integral_do_conto_para_repo_publico": "Manter a fonte editorial no Drive; publicar somente PDF e EPUB finais autorizados."
+    "nao_copiar_texto_integral_do_conto_para_repo_publico": "Manter a fonte editorial no Drive; publicar somente PDF e EPUB finais autorizados.",
+    "nao_tratar_foto_autor_com_ia": true
   },
   "ativos": {
     "capa": {
@@ -48,6 +49,18 @@
       "fonte": "logo-fantasticos-original.jpg",
       "observacao": "Remoção técnica do fundo e redução proporcional para 512 × 512 px; desenho integral preservado, sem IA ou redesenho. Autorizado pelo editor em 07/10/2026.",
       "fonte_sha256": "9269d35d4663bcc6af40fb1dd7be9e0ef598d3c01e9ffc7ba984577ea38a3351"
+    },
+    "foto_autor": {
+      "arquivo": "foto-ugo-leao-original.jpg",
+      "status": "original_autorizado_para_site",
+      "fonte": "Foto anexada pelo editor Saymon César em 07/10/2026.",
+      "data_autorizacao": "2026-10-07",
+      "dimensoes_px": {
+        "largura": 1251,
+        "altura": 1536
+      },
+      "sha256": "667b6002e2ba1d9d928e7c055cf2e61c88cbe08ba58dbc925488de6c5c94d6ae",
+      "observacao": "Arquivo original integral, sem tratamento, filtros, retoques ou uso de IA. A seção Sobre o autor usa diretamente este arquivo, com enquadramento no rosto feito exclusivamente por CSS."
     }
   }
 }

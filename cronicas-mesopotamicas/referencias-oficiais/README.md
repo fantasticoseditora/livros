@@ -13,6 +13,7 @@ Antes de alterar layout, identidade visual, capa, logotipo, copy relacionada ao 
 - `logo-fantasticos-transparente.png` — derivação técnica para o site: fundo removido, desenho integral preservado e resolução de 512 × 512 px. Usar no rodapé sem máscara circular ou recorte.
 - `arte-original-sem-tipografia.png` — arte-base original fornecida antes da aplicação da tipografia. Usar apenas como referência e nunca substituir a capa aprovada sem autorização.
 - `conto-a-epifania-do-escriba-FONTE.md` — ponteiro canônico para o documento do conto no Google Drive. A fonte editorial integral permanece no Drive; o repositório contém somente as entregas finais autorizadas em PDF e EPUB.
+- `foto-ugo-leao-original.jpg` — foto original enviada e autorizada pelo editor em 07/10/2026. Preservar o arquivo integral, sem tratamento, filtros, retoques ou IA. O foco no rosto é feito somente pelo enquadramento em CSS da seção Sobre o autor.
 - `manifesto-referencias.json` — status e fontes dos ativos.
 
 ## Atualização do conto

@@ -81,3 +81,8 @@ h1,h2,h3{font-weight:700}
  .hero-actions .shipping-notice{margin:14px 0;padding:12px 14px}
  .hero-actions .shipping-notice p{font-size:.9rem}
 }
+
+/* Foto original do autor: enquadramento apenas por CSS, sem tratamento. */
+.author-portrait{position:relative;overflow:hidden;width:min(240px,100%);aspect-ratio:6 / 7;margin:0 0 22px;border:1px solid var(--line);border-radius:12px;background:transparent}
+.author-portrait img{position:absolute;display:block;width:150%;max-width:none;height:auto;left:50%;top:50%;transform:translate(-52%,-42%)}
+@media(max-width:820px){.author-portrait{margin-left:auto;margin-right:auto}}
