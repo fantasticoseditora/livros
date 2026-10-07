@@ -74,3 +74,7 @@ Aviso destacado nas duas páginas: os livros comprados na pré-venda serão envi
 Logo integral no rodapé, sem recorte circular ou fundo, derivada tecnicamente da referência original. Título da oferta organizado em linhas completas, com fonte responsiva e sem quebra interna de Mesopotâmicas.
 
 Verificado no GitHub Pages em 360, 390, 412, 768 e 1440 px: sem rolagem horizontal ou quebra interna de palavras no título da oferta. Logo transparente carregada em 512 × 512 px, exibida proporcionalmente e sem máscara circular. Arquivo original preservado. Página temporária de teste removida.
+
+## Primeira dobra — 07/10/2026
+
+No mobile, capa canônica entre a apresentação do livro e o botão de compra. Aviso de início dos envios abaixo do botão. Na página pós-compra, mantido o aviso destacado de envios a partir de 19 de outubro de 2026.
