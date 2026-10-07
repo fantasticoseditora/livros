@@ -78,3 +78,5 @@ Verificado no GitHub Pages em 360, 390, 412, 768 e 1440 px: sem rolagem horizont
 ## Primeira dobra — 07/10/2026
 
 No mobile, capa canônica entre a apresentação do livro e o botão de compra. Aviso de início dos envios abaixo do botão. Na página pós-compra, mantido o aviso destacado de envios a partir de 19 de outubro de 2026.
+
+Validação no navegador em 360, 390, 412, 768 e 1440 px, com altura de 700 px: capa carregada na primeira dobra, sem rolagem horizontal, aviso após o botão e cinco CTAs preservados. Nos celulares de 360, 390 e 412 px, a capa também cabe integralmente em uma primeira tela de 640 px, descontado o botão fixo. Pós-compra aberta e aviso de início dos envios confirmado.
