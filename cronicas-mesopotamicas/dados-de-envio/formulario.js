@@ -32,8 +32,9 @@
     requestId=requestId || crypto.randomUUID();
     const payload={
       _subject:'Crônicas Mesopotâmicas — dados de envio — '+requestId.slice(0,8),
-      _template:'table',_captcha:'false',_honey:'',
+      _template:'table',_captcha:'false',_honey:'',_cc:data.email,
       _url:'https://fantasticoseditora.github.io/livros/cronicas-mesopotamicas/dados-de-envio/',
+      'Confirmação':'Recebemos os dados de envio de Crônicas Mesopotâmicas — Deuses Famintos. Para concluir a compra, continue para o Mercado Pago pelo botão do site, usando o mesmo e-mail informado no cadastro. Esta mensagem confirma somente o envio dos dados, não o pagamento.',
       'Código do cadastro':requestId,'Livro':'Crônicas Mesopotâmicas — Deuses Famintos',
       'Nome completo':data.nome,email:data.email,'WhatsApp':data.whatsapp || 'Não informado',
       'CEP':data.cep.replace(/\D/g,'').replace(/^(\d{5})(\d{3})$/,'$1-$2'),
@@ -49,6 +50,8 @@
       const result=await response.json();
       if(!response.ok || !(result.success===true || result.success==='true'))throw new Error('Envio não confirmado.');
       sent=true;sending=false;form.hidden=true;status.hidden=true;success.hidden=false;
+      document.getElementById('registration-intro').hidden=true;
+      document.getElementById('registration-instructions').hidden=true;
       document.getElementById('registration-code').textContent='Código do cadastro: '+requestId;
       success.focus();
     }catch(error){
