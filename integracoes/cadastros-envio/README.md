@@ -30,3 +30,5 @@ O cadastro não comprova pagamento. Antes de preparar os envios, conciliar com o
 Execute `node integracoes/cadastros-envio/cadastros.test.cjs` a partir da raiz do repositório. O teste cobre validação, CEP com zero inicial, WhatsApp vazio, deduplicação, prevenção de fórmulas em células, erro de gravação, prazo e botão de pagamento oculto até um ACK válido. Serviços Google simulados; implantação e gravação reais ainda pendentes.
 
 Referências técnicas oficiais: [aplicativos da Web](https://developers.google.com/apps-script/guides/web) e [comunicação com o servidor](https://developers.google.com/apps-script/guides/html/communication).
+
+A prévia foi aberta no GitHub Pages e verificada em 360, 390, 412, 768 e 1440 px, sem rolagem horizontal ou interna. Campos e CEP verificados no navegador. A planilha permanece privada. O fluxo completo de gravação e pagamento só será validado após a implantação; os cinco CTAs ainda usam diretamente o Mercado Pago.
