@@ -6,7 +6,13 @@ Serviço: FormSubmit, via AJAX, sem credenciais no navegador. O formulário info
 
 ## Status de ativação
 
-Página preparada para envio. Ativação do destinatário e entrega de e-mail de teste ainda serão conferidas antes de alterar os cinco CTAs. O serviço pede confirmação do e-mail no primeiro uso. Não considerar o fluxo concluído apenas pela resposta da API: confirmar a chegada do e-mail de teste.
+Página preparada para envio, porém desativada (`enabled: false`). O primeiro envio técnico gerou uma mensagem de ativação para fantasticoseditora@gmail.com, referente ao domínio fantasticoseditora.github.io. O botão de pagamento permaneceu oculto.
+
+A confirmação do FormSubmit foi rejeitada pela revisão automática de aprovação: o editor autorizou o envio ao e-mail da editora, mas não autorizou especificamente o intermediário a processar os dados. Aguardar autorização explícita para o FormSubmit; não contornar a rejeição por outra ferramenta ou rota. Nenhum dado real de comprador foi enviado; o teste usou apenas campos sintéticos e o e-mail comercial da própria editora.
+
+Após autorização: confirmar o destinatário pelo e-mail de ativação, habilitar o formulário, confirmar a entrega de um e-mail técnico com todos os campos e WhatsApp vazio, então publicar os cinco CTAs apontando para a etapa intermediária. Não considerar o fluxo concluído apenas pela resposta da API.
+
+A autorização solicitada abrange o processamento de nome, e-mail, endereço completo com CEP, WhatsApp opcional e código de cadastro pelo FormSubmit para encaminhamento a fantasticoseditora@gmail.com. O serviço informa retenção das submissões por 30 dias em sua documentação. Política: https://formsubmit.co/privacy.pdf.
 
 ## Testes
 

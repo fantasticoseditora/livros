@@ -14,7 +14,7 @@ function setup({enabled=true,values=data,handler=()=>Promise.resolve({ok:true,js
  const f=nodes['shipping-form'];f.reportValidity=()=>true;f.elements={namedItem:()=>({value:'',addEventListener(){},focus(){}})};f.addEventListener=(n,c)=>events[n]=c;
  const context={Date:Clock,window:{SHIPPING_REGISTRATION:{enabled,endpoint:'https://formsubmit.co/ajax/fantasticoseditora@gmail.com'}},document:{getElementById:k=>nodes[k]},crypto:{randomUUID:()=>uuid},FormData:class{entries(){return Object.entries(values);}},AbortController,setTimeout:()=>1,clearTimeout(){},fetch:(url,o)=>{calls.push({url,...o});return handler(url,o);}};
  vm.createContext(context);vm.runInContext(code,context);
- return {nodes,calls,submit:()=>events.submit({preventDefault(){}})};
+ return {nodes,calls,submit:()=>events.submit?.({preventDefault(){}})};
 }
 (async()=>{
  const off=setup({enabled:false});await off.submit();assert.equal(off.calls.length,0);assert.equal(off.nodes['save-registration'].disabled,true);

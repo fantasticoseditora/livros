@@ -94,3 +94,5 @@ Validação da preparação: página aberta em HTTPS e conferida em 360, 390, 41
 ## Dados de envio por e-mail — orientação posterior do editor
 
 O editor autorizou substituir a gravação em planilha pelo envio dos dados para fantasticoseditora@gmail.com antes do Mercado Pago. A integração atual usa FormSubmit e informa esse processamento no formulário. Não há gravação automática na planilha; ela permanece privada. Os cinco CTAs só devem passar a apontar para a etapa intermediária após confirmar a entrega de um teste no Gmail. Instruções e status atual em `integracoes/cadastros-envio/README.md`.
+
+Status da alternativa por e-mail: código preparado, teste local aprovado e mensagem de ativação recebida. A ativação do FormSubmit foi rejeitada pela revisão automática de aprovação por falta de autorização específica ao serviço intermediário. Envio desativado; CTAs mantidos no checkout atual até autorização, ativação e confirmação de entrega real. Não houve envio de dados reais de compradores.
