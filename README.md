@@ -48,3 +48,13 @@ Checkout informado pelo editor: https://mpago.la/2rBm8qQ
 Os cinco CTAs usam esse checkout. O editor também autorizou a revisão pontual e a entrega de A Epifania do Escriba em PDF e EPUB na página pós-compra. O manifesto registra a nova fonte corrigida e o status aprovado_para_publicacao. A página pós-compra continua sem validação técnica do pagamento e sem links públicos no catálogo ou na landing.
 
 A foto solicitada ainda depende da identificação do arquivo: o documento Prefácio + 5 Cap consultado não contém imagem incorporada. Não usar retrato substituto sem autorização.
+
+### Validação da Fase 2
+
+- Landing e pós-compra verificadas novamente em 360, 390, 412, 768 e 1440 px, sem rolagem horizontal.
+- Cinco CTAs ativos, incluindo o botão fixo no mobile, com o link exato informado pelo editor.
+- PDF e EPUB baixados pelos botões da página pós-compra no navegador; bytes idênticos aos arquivos finais publicados.
+- PDF e EPUB contêm integralmente a versão revisada. EPUBCheck: zero erros e avisos.
+- Pós-compra mantém noindex,nofollow,noarchive; capa e logo originais preservados.
+- O Mercado Pago apresentou erro genérico de acesso no navegador remoto, mesmo após uma atualização da página. Não foi possível verificar a tela de checkout nem fazer uma compra; o destino dos CTAs corresponde ao link do editor.
+- Recursos CSS e JS usam versão na URL para evitar cache da configuração anterior. Atualizar a versão ao publicar mudanças nesses arquivos.
