@@ -90,3 +90,7 @@ Página preparada em `/cronicas-mesopotamicas/dados-de-envio/`, com botão do Me
 Não publicar a planilha nem dados de compradores; não inserir tokens ou credenciais no GitHub. O teste local da integração usa apenas dados sintéticos e serviços Google simulados; não substitui a validação da implantação real.
 
 Validação da preparação: página aberta em HTTPS e conferida em 360, 390, 412, 768 e 1440 px, sem rolagem horizontal ou interna do formulário. Capa canônica carregada; oito campos obrigatórios; WhatsApp e complemento opcionais; CEP incompleto recusado e zero inicial preservado. Botão de gravação desativado e botão do Mercado Pago oculto enquanto não há implantação. Planilha verificada como privada, com cabeçalhos corretos e fuso America/Sao_Paulo. Verificação temporária removida após os testes. Gravação real e alteração dos cinco CTAs continuam pendentes.
+
+## Dados de envio por e-mail — orientação posterior do editor
+
+O editor autorizou substituir a gravação em planilha pelo envio dos dados para fantasticoseditora@gmail.com antes do Mercado Pago. A integração atual usa FormSubmit e informa esse processamento no formulário. Não há gravação automática na planilha; ela permanece privada. Os cinco CTAs só devem passar a apontar para a etapa intermediária após confirmar a entrega de um teste no Gmail. Instruções e status atual em `integracoes/cadastros-envio/README.md`.

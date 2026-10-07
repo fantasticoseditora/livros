@@ -42,25 +42,4 @@ assert.throws(()=>server.salvarCadastro(input),/encerrada/);
 now=Date.parse('2026-10-07T14:00:00-03:00');
 headers[0]='Cabeçalho alterado';assert.throws(()=>server.salvarCadastro(input),/Cabeçalho/);headers[0]='ID do cadastro';
 
-const clientCode=fs.readFileSync(path.join(__dirname,'../../cronicas-mesopotamicas/dados-de-envio/formulario.js'),'utf8');
-function client(ready=true){
-  const events={},calls=[],timers=[];
-  const nodes={};
-  for(const key of ['shipping-form','form-fields','save-registration','service-status','registration-success','registration-code'])nodes[key]={hidden:false,disabled:false,textContent:'',classList:{add(){},remove(){}},focus(){}};
-  nodes['registration-success'].hidden=true;nodes['save-registration'].disabled=true;
-  nodes['shipping-form'].elements={namedItem:()=>({value:'',addEventListener(){},focus(){}})};
-  nodes['shipping-form'].reportValidity=()=>true;
-  nodes['shipping-form'].addEventListener=(name,callback)=>events[name]=callback;
-  const run={withSuccessHandler(fn){const call={success:fn};return {withFailureHandler(failure){call.failure=failure;return {salvarCadastro(data){call.data=data;calls.push(call);}};}};}};
-  const context={Date:FixedDate,window:ready?{google:{script:{run}}}:{},document:{getElementById:k=>nodes[k]},crypto:{randomUUID:()=>id},FormData:class{entries(){return Object.entries(input);}},setTimeout:fn=>{timers.push(fn);return timers.length;},clearTimeout(){}};
-  vm.createContext(context);vm.runInContext(clientCode,context);
-  return {nodes,calls,timers,submit:()=>events.submit({preventDefault(){}})};
-}
-const offline=client(false);offline.submit();assert.equal(offline.calls.length,0);assert.equal(offline.nodes['save-registration'].disabled,true);assert.equal(offline.nodes['registration-success'].hidden,true);
-const invalid=client();invalid.nodes['shipping-form'].reportValidity=()=>false;invalid.submit();assert.equal(invalid.calls.length,0);
-const c=client();c.submit();assert.equal(c.nodes['registration-success'].hidden,true);c.calls[0].failure();assert.equal(c.nodes['registration-success'].hidden,true);assert.equal(c.nodes['save-registration'].disabled,false);
-c.submit();c.calls[1].success({ok:true,id:'outro-id'});assert.equal(c.nodes['registration-success'].hidden,true,'ACK inválido não libera pagamento');
-c.submit();assert.equal(c.calls[2].data.id,c.calls[0].data.id,'Retry mantém ID para evitar duplicação');c.calls[2].success({ok:true,id});assert.equal(c.nodes['registration-success'].hidden,false);assert.equal(c.nodes['shipping-form'].hidden,true);
-c.calls[0].failure();assert.equal(c.nodes['service-status'].hidden,true,'Falha antiga não desfaz sucesso');c.submit();assert.equal(c.calls.length,3);
-const slow=client();slow.submit();slow.timers[0]();assert.equal(slow.nodes['registration-success'].hidden,true);assert.equal(slow.nodes['save-registration'].disabled,false);
-console.log('OK: validação, CEP, WhatsApp opcional, deduplicação, fórmulas, falhas, prazo e liberação do pagamento após confirmação. Serviços Google simulados; implantação real pendente.');
+console.log('OK: validação da integração Apps Script legada, atualmente não utilizada.');

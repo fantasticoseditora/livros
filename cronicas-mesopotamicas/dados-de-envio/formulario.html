@@ -13,7 +13,7 @@
   <main class="card registration-card">
     <div class="registration-heading">
       <img src="https://fantasticoseditora.github.io/livros/cronicas-mesopotamicas/referencias-oficiais/capa-aprovada-cronicas-mesopotamicas.png" width="1060" height="1484" alt="Capa de Crônicas Mesopotâmicas — Deuses Famintos, de Ugo Leão">
-      <div><div class="eyebrow">Crônicas Mesopotâmicas</div><h1 class="section-title">Dados de envio</h1><p>Primeiro, informe onde deseja receber o livro. Depois de salvar os dados, continue para o pagamento no Mercado Pago.</p></div>
+      <div><div class="eyebrow">Crônicas Mesopotâmicas</div><h1 class="section-title">Dados de envio</h1><p>Primeiro, informe onde deseja receber o livro. Depois de enviar os dados à editora, continue para o pagamento no Mercado Pago.</p></div>
     </div>
     <p class="notice">Use no pagamento o mesmo e-mail informado aqui para facilitar a identificação do pedido. Os campos com * são obrigatórios.</p>
     <p id="service-status" class="form-message" role="status" aria-live="polite">O cadastro está sendo preparado. Em caso de dúvida, fale com fantasticoseditora@gmail.com.</p>
@@ -40,20 +40,21 @@
           <label>Cidade *<input name="cidade" autocomplete="address-level2" required maxlength="100"></label>
         </div>
         <div class="form-trap" aria-hidden="true"><label>Deixe vazio<input name="site" tabindex="-1" autocomplete="off"></label></div>
-        <p class="notice">A Editora Fantásticos usará estes dados para identificar sua compra, organizar a entrega e entrar em contato sobre o pedido. Dúvidas: <a href="mailto:fantasticoseditora@gmail.com">fantasticoseditora@gmail.com</a>.</p>
-        <button id="save-registration" class="cta" type="submit" disabled>SALVAR DADOS E CONTINUAR</button>
+        <p class="notice">Ao enviar, seus dados serão encaminhados pelo FormSubmit para <a href="mailto:fantasticoseditora@gmail.com">fantasticoseditora@gmail.com</a>. A Editora Fantásticos os usará para identificar sua compra, organizar a entrega e entrar em contato sobre o pedido. <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">Privacidade do serviço de envio</a>.</p>
+        <button id="save-registration" class="cta" type="submit" disabled>ENVIAR DADOS E CONTINUAR</button>
       </fieldset>
     </form>
     <div id="registration-success" hidden tabindex="-1">
-      <h2 class="section-title">Dados salvos</h2>
-      <p>Seu endereço foi registrado. Agora conclua a compra no Mercado Pago.</p>
+      <h2 class="section-title">Dados enviados</h2>
+      <p>Os dados de envio foram encaminhados à Editora Fantásticos. Agora conclua a compra no Mercado Pago.</p>
       <p id="registration-code" class="notice"></p>
       <a id="payment-link" class="cta" href="https://mpago.la/2rBm8qQ" target="_blank" rel="noopener noreferrer">CONTINUAR PARA O MERCADO PAGO</a>
-      <p class="notice">O pagamento abrirá em outra aba. O cadastro do endereço não confirma o pagamento; acompanhe a confirmação enviada pelo Mercado Pago.</p>
+      <p class="notice">O pagamento abrirá em outra aba. O envio do endereço não confirma o pagamento; acompanhe a confirmação enviada pelo Mercado Pago.</p>
     </div>
     <aside class="shipping-notice" aria-label="Envio dos livros da pré-venda"><div class="eyebrow">Envio dos livros</div><p>Os livros comprados na pré-venda serão enviados <strong>a partir de <time datetime="2026-10-19">19 de outubro de 2026</time>.</strong></p></aside>
     <p class="notice">Frete econômico incluso para todo o Brasil. O prazo de entrega pode variar conforme a região e a modalidade econômica disponível.</p>
   </main>
-  <script src="https://fantasticoseditora.github.io/livros/cronicas-mesopotamicas/dados-de-envio/formulario.js?v=20261007-1"></script>
+  <script src="https://fantasticoseditora.github.io/livros/cronicas-mesopotamicas/dados-de-envio/config.js?v=20261007-3"></script>
+  <script src="https://fantasticoseditora.github.io/livros/cronicas-mesopotamicas/dados-de-envio/formulario.js?v=20261007-3"></script>
 </body>
 </html>
