@@ -7,7 +7,7 @@ Status em 07/10/2026: planilha criada e página preparada; gravação e redireci
 ## Publicar o aplicativo de gravação
 
 1. Abra https://script.google.com/home e crie um **Novo projeto** independente.
-2. Substitua o conteúdo de `Code.gs` pelo arquivo `Code.gs` deste diretório. Não há parâmetros a editar; ele já aponta para a planilha criada e para o formulário canônico do site.
+2. Abra o [código pronto, Code.gs](Code.gs) e copie todo o conteúdo (botão **Copy raw file** no GitHub). Substitua o conteúdo de `Code.gs` no novo projeto por esse código. Não há parâmetros a editar; ele já aponta para a planilha criada e para o formulário canônico do site.
 3. Em **Implantar → Nova implantação**, escolha **Aplicativo da Web**. Executar como: sua conta. Quem pode acessar: **Qualquer pessoa**. Autorize somente o projeto da Editora; mantenha a planilha privada.
 4. Copie a URL do aplicativo terminada em `/exec` e envie ao Work para configurar e testar o fluxo. Não use a URL `/dev`.
 
