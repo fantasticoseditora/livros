@@ -51,3 +51,5 @@
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.cta{transition:none}}
 h1,h2,h3{font-weight:700}
+
+.download-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin:28px 0}.download-actions .cta{flex:1 1 210px;max-width:320px;min-height:52px}

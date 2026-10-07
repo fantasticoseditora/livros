@@ -40,3 +40,11 @@ A página pós-compra não valida pagamentos e não deve ser vinculada na landin
 Landing: https://fantasticoseditora.github.io/livros/cronicas-mesopotamicas/
 
 URL exata de retorno de sucesso do Mercado Pago: https://fantasticoseditora.github.io/livros/cronicas-mesopotamicas/compra-confirmada/
+
+## Fase 2 — 7 de outubro de 2026
+
+Checkout informado pelo editor: https://mpago.la/2rBm8qQ
+
+Os cinco CTAs usam esse checkout. O editor também autorizou a revisão pontual e a entrega de A Epifania do Escriba em PDF e EPUB na página pós-compra. O manifesto registra a nova fonte corrigida e o status aprovado_para_publicacao. A página pós-compra continua sem validação técnica do pagamento e sem links públicos no catálogo ou na landing.
+
+A foto solicitada ainda depende da identificação do arquivo: o documento Prefácio + 5 Cap consultado não contém imagem incorporada. Não usar retrato substituto sem autorização.

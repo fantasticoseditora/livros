@@ -1,18 +1,12 @@
-# A Epifania do Escriba — fonte editorial
+# Fonte editorial — A Epifania do Escriba
 
-**Status:** provisório — NÃO PUBLICAR / NÃO ENTREGAR
+Autor: Ugo Leão. Identificação no documento: Conto da Mesopotâmia — A Epifania do Escriba.
 
-Fonte canônica no Google Drive:
+Fonte canônica corrigida pelo autor:
+https://docs.google.com/document/d/1kseN1PYZ06IYvsbm2RA1SyvlMcRE3icSzxUo-02b-pk/edit?usp=drivesdk
 
-https://docs.google.com/document/d/16H3tnAh7Hp6uNk50v0AWcYWUVrC7Dm9BDJlM7eezmJA/edit?usp=drivesdk
+Em 07/10/2026, o editor autorizou revisão ortográfica e gramatical pontual, diagramação em preto e branco e disponibilização do conto em PDF e EPUB na página pós-compra. A revisão preservou enredo, personagens, parágrafos, voz e escolhas estilísticas; corrigiu apenas erros objetivos.
 
-## Regra para Work/agentes
+O documento-fonte não foi sobrescrito. O texto-fonte integral permanece no Drive. Os únicos arquivos de entrega públicos são os dois formatos finais no diretório `bonus/`.
 
-1. Abra este documento pelo conector do Google Drive sempre que precisar consultar o conto.
-2. A versão atual ainda está em revisão por Ugo Leão.
-3. Não gerar PDF ou EPUB de entrega enquanto o status não for alterado para `aprovado_para_publicacao` pelo editor.
-4. Quando uma versão revisada for fornecida, atualizar este link se necessário e registrar a mudança no `manifesto-referencias.json`.
-
-## Por que o texto não está copiado neste repositório
-
-O repositório `livros` será público para hospedagem via GitHub Pages. Copiar aqui o texto integral do conto faria a obra ainda não lançada ficar publicamente acessível pelo GitHub. Por isso, o repositório mantém apenas o ponteiro para a fonte privada/autorizada no Drive.
+Consulte `manifesto-referencias.json` antes de alterar ou substituir qualquer entrega.

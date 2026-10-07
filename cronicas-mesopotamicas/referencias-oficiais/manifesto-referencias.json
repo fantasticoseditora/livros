@@ -8,8 +8,8 @@
     "nao_reconstruir_capa_com_ia": true,
     "nao_reconstruir_logo_com_ia": true,
     "preservar_iluminacao_capa": true,
-    "conto_pode_ser_publicado": false,
-    "nao_copiar_texto_integral_do_conto_para_repo_publico": true
+    "conto_pode_ser_publicado": true,
+    "nao_copiar_texto_integral_do_conto_para_repo_publico": "Manter a fonte editorial no Drive; publicar somente PDF e EPUB finais autorizados."
   },
   "ativos": {
     "capa": {
@@ -26,9 +26,21 @@
     },
     "conto": {
       "arquivo_referencia": "conto-a-epifania-do-escriba-FONTE.md",
-      "status": "provisorio_nao_publicar",
-      "fonte_drive": "https://docs.google.com/document/d/16H3tnAh7Hp6uNk50v0AWcYWUVrC7Dm9BDJlM7eezmJA/edit?usp=drivesdk",
-      "observacao": "Aguardar versão revisada por Ugo Leão antes de gerar PDF/EPUB. O texto integral permanece no Drive para não vazar em repositório público."
+      "status": "aprovado_para_publicacao",
+      "fonte_drive": "https://docs.google.com/document/d/1kseN1PYZ06IYvsbm2RA1SyvlMcRE3icSzxUo-02b-pk/edit?usp=drivesdk",
+      "observacao": "Versão corrigida por Ugo Leão; publicação autorizada pelo editor em 07/10/2026 após revisão ortográfica e gramatical pontual, sem alteração estilística. Fonte integral mantida no Drive.",
+      "aprovacao_editorial": "Autorização expressa de Saymon César nesta tarefa para revisar, diagramar e disponibilizar PDF e EPUB na página pós-compra.",
+      "data_publicacao": "2026-10-07",
+      "entregas": [
+        "../bonus/a-epifania-do-escriba.pdf",
+        "../bonus/a-epifania-do-escriba.epub"
+      ]
+    },
+    "logo_preto": {
+      "arquivo": "logo-fantasticos-preto.png",
+      "status": "derivacao_tecnica_para_miolo_preto_e_branco",
+      "fonte": "logo-fantasticos-original.jpg",
+      "observacao": "Conversão técnica para preto e transparência, preservando o desenho e a proporção originais; autorizada nesta tarefa."
     }
   }
 }

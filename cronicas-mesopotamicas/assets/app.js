@@ -1,5 +1,5 @@
 const CONFIG = Object.freeze({
-  mercadoPagoUrl: "", // FASE 2: preencher somente após o teste do retorno público.
+  mercadoPagoUrl: "https://mpago.la/2rBm8qQ", // Checkout fornecido pelo editor.
   deadline: "2026-10-19T23:59:59-03:00"
 });
 const deadline = Date.parse(CONFIG.deadline);
