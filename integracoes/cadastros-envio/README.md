@@ -6,13 +6,11 @@ Serviço: FormSubmit, via AJAX, sem credenciais no navegador. O formulário info
 
 ## Status de ativação
 
-Página preparada para envio, porém desativada (`enabled: false`). O primeiro envio técnico gerou uma mensagem de ativação para fantasticoseditora@gmail.com, referente ao domínio fantasticoseditora.github.io. O botão de pagamento permaneceu oculto.
+Autorização expressa do editor em 07/10/2026 para o FormSubmit processar os dados e encaminhá-los para fantasticoseditora@gmail.com. Ativação confirmada no serviço e formulário habilitado. Teste técnico realizado no GitHub Pages: campos vazios impedem envio; Mercado Pago permanece oculto durante a requisição e só aparece após confirmação positiva. Mensagem técnica recebida no Gmail da editora, com todos os campos conferidos; WhatsApp vazio aceito e CEP com zero inicial preservado. Nenhum dado real de comprador utilizado.
 
-A confirmação do FormSubmit foi rejeitada pela revisão automática de aprovação: o editor autorizou o envio ao e-mail da editora, mas não autorizou especificamente o intermediário a processar os dados. Aguardar autorização explícita para o FormSubmit; não contornar a rejeição por outra ferramenta ou rota. Nenhum dado real de comprador foi enviado; o teste usou apenas campos sintéticos e o e-mail comercial da própria editora.
+Os cinco CTAs da landing levam para `./dados-de-envio/`. Após enviar os dados, o comprador deve concluir o pagamento no Mercado Pago com o mesmo e-mail. Cadastro não confirma pagamento; conciliar nome/e-mail com os pagamentos antes de preparar os envios. Não há gravação automática na planilha.
 
-Após autorização: confirmar o destinatário pelo e-mail de ativação, habilitar o formulário, confirmar a entrega de um e-mail técnico com todos os campos e WhatsApp vazio, então publicar os cinco CTAs apontando para a etapa intermediária. Não considerar o fluxo concluído apenas pela resposta da API.
-
-A autorização solicitada abrange o processamento de nome, e-mail, endereço completo com CEP, WhatsApp opcional e código de cadastro pelo FormSubmit para encaminhamento a fantasticoseditora@gmail.com. O serviço informa retenção das submissões por 30 dias em sua documentação. Política: https://formsubmit.co/privacy.pdf.
+O serviço informa retenção das submissões por 30 dias em sua documentação. Política: https://formsubmit.co/privacy.pdf.
 
 ## Testes
 

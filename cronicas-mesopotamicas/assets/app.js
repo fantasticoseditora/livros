@@ -1,15 +1,16 @@
 const CONFIG = Object.freeze({
+  cadastroEnvioUrl: "./dados-de-envio/",
   mercadoPagoUrl: "https://mpago.la/2rBm8qQ", // Checkout fornecido pelo editor.
   deadline: "2026-10-19T23:59:59-03:00"
 });
 const deadline = Date.parse(CONFIG.deadline);
 function updateCampaign(now = Date.now()) {
   const expired = now > deadline;
-  const ready = !expired && /^https:\/\//.test(CONFIG.mercadoPagoUrl);
+  const ready = !expired && /^https:\/\//.test(CONFIG.mercadoPagoUrl) && CONFIG.cadastroEnvioUrl === "./dados-de-envio/";
   document.querySelectorAll('[data-buy]').forEach(link => {
     link.textContent = expired ? 'PRÉ-VENDA ENCERRADA' : link.dataset.label;
     if (ready) {
-      link.href = CONFIG.mercadoPagoUrl;
+      link.href = CONFIG.cadastroEnvioUrl;
       link.removeAttribute('aria-disabled');
       link.removeAttribute('tabindex');
     } else {
@@ -19,7 +20,7 @@ function updateCampaign(now = Date.now()) {
     }
   });
   document.querySelectorAll('[data-payment-status]').forEach(el => {
-    el.textContent = expired ? 'A pré-venda terminou em 19 de outubro de 2026.' : ready ? 'Pagamento pelo Mercado Pago.' : 'Link de pagamento em configuração.';
+    el.textContent = expired ? 'A pré-venda terminou em 19 de outubro de 2026.' : ready ? 'Informe os dados de envio e continue para o Mercado Pago.' : 'Link de pagamento em configuração.';
   });
   const diff = Math.max(0, deadline - now);
   const values = {days:Math.floor(diff/86400000), hours:Math.floor(diff%86400000/3600000), minutes:Math.floor(diff%3600000/60000), seconds:Math.floor(diff%60000/1000)};

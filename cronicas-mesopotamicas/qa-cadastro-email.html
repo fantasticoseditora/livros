@@ -1,0 +1,28 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="robots" content="noindex,nofollow,noarchive"><title>Verificação do cadastro de envio</title><style>body{font:16px system-ui;background:#24170f;color:#ffe4aa;margin:24px}table{border-collapse:collapse}td,th{padding:12px;border:1px solid #9b7744}iframe{position:absolute;left:-20000px;border:0;height:900px}.ok{color:#bef2b1}.erro{color:#ffb8b8}</style><h1>Verificação do cadastro de envio</h1><p>Carregamento real das páginas em 360, 390, 412, 768 e 1440 px. Nenhum dado de comprador.</p><table><thead><tr><th>Página</th><th>Largura</th><th>Resultado</th><th>Detalhes</th></tr></thead><tbody id="results"></tbody></table><script>
+const widths=[360,390,412,768,1440]; const pages=[['Venda','./'],['Cadastro','./dados-de-envio/'],['Pós-compra','./compra-confirmada/']];
+const all=[];
+for(const [page,path] of pages)for(const width of widths){
+ const row=document.createElement('tr');row.innerHTML='<td>'+page+'</td><td>'+width+'</td><td>Aguardando</td><td></td>';document.querySelector('#results').append(row);
+ const frame=document.createElement('iframe');frame.style.width=width+'px';frame.src=path+'?qa=20261007-email';document.body.append(frame);
+ const check=()=>{try{
+  const doc=frame.contentDocument;if(!doc||doc.readyState!=='complete')return;
+  const inner=doc.querySelector('#registration-frame');if(inner&&(!inner.contentDocument||inner.contentDocument.readyState!=='complete'))return;
+  const formDoc=inner?inner.contentDocument:doc;
+  const covers=[...doc.images,...(inner?[...formDoc.images]:[])];if(covers.some(i=>!i.complete))return;
+  const outerOk=doc.documentElement.scrollWidth<=width+1;
+  const innerOk=!inner||formDoc.documentElement.scrollWidth<=inner.clientWidth+1;
+  const fits=!inner||formDoc.documentElement.scrollHeight<=inner.clientHeight+1;
+  const buttons=[...doc.querySelectorAll('[data-buy]')];
+  const route=page!=='Venda'||(buttons.length===5&&buttons.every(b=>b.getAttribute('href')==='./dados-de-envio/'&&!b.hasAttribute('aria-disabled')));
+  const required=[...formDoc.querySelectorAll('[required]')].map(e=>e.name);
+  const ready=page!=='Cadastro'||(!formDoc.querySelector('#save-registration').disabled&&formDoc.querySelector('#registration-success').hidden&&required.length===8&&!formDoc.querySelector('[name=whatsapp]').required);
+  const notice=page==='Venda'||page==='Pós-compra'?doc.body.textContent.includes('19 de outubro de 2026'):formDoc.body.textContent.includes('19 de outubro de 2026');
+  const img=page!=='Cadastro'||[...formDoc.images].some(i=>i.complete&&i.naturalWidth>0&&i.src.includes('/referencias-oficiais/capa-aprovada-'));
+  const ok=outerOk&&innerOk&&fits&&route&&ready&&notice&&img;
+  row.children[2].textContent=ok?'OK':'FALHA';row.children[2].className=ok?'ok':'erro';
+  const detail={outerOk,innerOk,fits,route,ready,notice,img,required:required.length};row.children[3].textContent=JSON.stringify(detail);row.dataset.result=ok?'ok':'falha';
+ }catch(e){row.children[3].textContent=e.message;}};
+ frame.addEventListener('load',check);all.push(check);
+}
+setInterval(()=>all.forEach(f=>f()),1000);
+</script></html>
