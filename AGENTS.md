@@ -11,3 +11,5 @@ Dados comerciais: Ugo Leão (sem H), R$ 79,90, frete econômico incluso para tod
 Orientação mais recente do editor (07/10/2026): não exibir preço na landing page, nos metadados nem nos botões; o valor é apresentado pelo checkout do Mercado Pago. Manter os cinco CTAs ativos e com fonte ampliada. Esta orientação substitui as exigências anteriores de exibição do preço.
 
 Somente após aprovação editorial explícita atualize o manifesto para `aprovado_para_publicacao` e gere os bônus.
+
+Envio informado pelo editor em 07/10/2026: os livros comprados na pré-venda serão enviados a partir de 19 de outubro de 2026. Destacar essa informação na landing e na página pós-compra. Não transformar essa data de início dos envios em promessa de entrega nessa data.

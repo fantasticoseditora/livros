@@ -6,6 +6,8 @@ Editora: Fantásticos
 
 ## Orientação vigente — 07/10/2026
 
+Os livros comprados na pré-venda serão enviados a partir de 19 de outubro de 2026. Exibir esse aviso em destaque nas páginas de venda e pós-compra e informar o início dos envios no FAQ. É uma data de início dos envios, não uma data garantida de chegada.
+
 Por solicitação posterior do editor, retirar o preço de toda a landing page, dos metadados e dos cinco CTAs de compra. O valor comercial permanece no checkout do Mercado Pago. Ampliar a fonte dos botões de compra para 20 px no desktop e 18 px no mobile. Esta orientação prevalece sobre as instruções de exibição de preço abaixo.
 
 ## OBJETIVO
