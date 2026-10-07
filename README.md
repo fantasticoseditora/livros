@@ -72,3 +72,5 @@ Aviso destacado nas duas páginas: os livros comprados na pré-venda serão envi
 ## Correção visual mobile — 07/10/2026
 
 Logo integral no rodapé, sem recorte circular ou fundo, derivada tecnicamente da referência original. Título da oferta organizado em linhas completas, com fonte responsiva e sem quebra interna de Mesopotâmicas.
+
+Verificado no GitHub Pages em 360, 390, 412, 768 e 1440 px: sem rolagem horizontal ou quebra interna de palavras no título da oferta. Logo transparente carregada em 512 × 512 px, exibida proporcionalmente e sem máscara circular. Arquivo original preservado. Página temporária de teste removida.
