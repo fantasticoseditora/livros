@@ -62,3 +62,5 @@ A foto solicitada ainda depende da identificação do arquivo: o documento Pref�
 ## Ajuste de exibição — 07/10/2026
 
 Preço removido de toda a landing, metadados e botões por solicitação do editor. Cinco CTAs mantidos com o checkout informado. Fonte dos CTAs: 20 px no desktop e 18 px no mobile; altura mínima de 60 px.
+
+Verificado no navegador em 360, 390, 412, 768 e 1440 px: sem preço no conteúdo/metadados, cinco CTAs ativos, fonte de 18/20 px, altura mínima de 60 px nos botões visíveis e nenhuma rolagem horizontal. Verificação temporária removida após os testes.
