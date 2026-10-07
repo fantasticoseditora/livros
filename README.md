@@ -101,4 +101,4 @@ Validação do fluxo ativo: landing, cadastro e pós-compra abertos em HTTPS e m
 
 ## Confirmação de dados — 07/10/2026
 
-Confirmação após envio começa com “Dados enviados”; instruções de preenchimento ocultadas após ACK. Teste do editor às 15h06 encontrado no Gmail. Cópia para o e-mail preenchido configurada por `_cc`, com mensagem que confirma somente os dados. Testes locais aprovados. Entrega real da cópia ainda não verificada, pois a sessão de testes retornou 502 no navegador e 403 na chamada direta ao serviço. Nenhum dado real de comprador publicado. Documentação: https://formsubmit.co/documentation.
+Confirmação após envio começa com “Dados enviados”; instruções de preenchimento ocultadas após ACK. Teste do editor às 15h06 encontrado no Gmail. Cópia para o e-mail preenchido configurada por `_cc`, com mensagem que confirma somente os dados. Testes locais aprovados. Entrega real da cópia confirmada pelo editor em 07/10/2026 às 15h24, após novo teste; o editor autorizou considerar esse envio validado. Nenhum dado real de comprador publicado. Documentação: https://formsubmit.co/documentation.
