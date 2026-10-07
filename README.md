@@ -98,3 +98,7 @@ O editor autorizou substituir a gravação em planilha pelo envio dos dados para
 Status atualizado: FormSubmit autorizado expressamente pelo editor e ativado em 07/10/2026. Cadastro técnico enviado pelo formulário publicado; e-mail recebido e todos os campos conferidos, incluindo CEP com zero inicial e WhatsApp vazio. O botão do Mercado Pago ficou oculto até a confirmação do envio. Cinco CTAs direcionados para `/cronicas-mesopotamicas/dados-de-envio/`. O envio de endereço não confirma pagamento. Nenhum dado real de comprador foi usado nos testes.
 
 Validação do fluxo ativo: landing, cadastro e pós-compra abertos em HTTPS e medidos em 360, 390, 412, 768 e 1440 px, sem rolagem horizontal. Formulário sem rolagem interna, oito campos obrigatórios e WhatsApp/complemento opcionais. Cinco CTAs apontam para o cadastro, inclusive o fixo no mobile. Navegação real do botão principal conferida. E-mail técnico entregue e Mercado Pago liberado somente após confirmação do envio. Verificação temporária removida após os testes.
+
+## Confirmação de dados — 07/10/2026
+
+Confirmação após envio começa com “Dados enviados”; instruções de preenchimento ocultadas após ACK. Teste do editor às 15h06 encontrado no Gmail. Cópia para o e-mail preenchido configurada por `_cc`, com mensagem que confirma somente os dados. Testes locais aprovados. Entrega real da cópia ainda não verificada, pois a sessão de testes retornou 502 no navegador e 403 na chamada direta ao serviço. Nenhum dado real de comprador publicado. Documentação: https://formsubmit.co/documentation.

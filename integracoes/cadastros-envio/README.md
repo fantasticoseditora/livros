@@ -25,3 +25,11 @@ O serviço informa retenção das submissões por 30 dias em sua documentação.
 O código de cadastro permanece igual em uma tentativa de reenvio e facilita reconhecer mensagens repetidas. O serviço não fornece garantia de deduplicação; não prometer que uma nova tentativa nunca duplicará o e-mail. Não publicar mensagens, endereços ou comprovantes no repositório.
 
 Documentação oficial: https://formsubmit.co/ajax-documentation e https://formsubmit.co/documentation.
+
+## Confirmação de cadastro — ajuste em 07/10/2026
+
+Depois do ACK, ocultar `registration-intro` e `registration-instructions`; a confirmação começa com “Dados enviados”. O teste feito pelo editor às 15h06 foi encontrado no Gmail da editora e seu código de cadastro conferido.
+
+O payload inclui `_cc` com o e-mail informado para enviar uma cópia ao comprador, além de uma mensagem de confirmação explícita de dados, sem confirmação de pagamento. A documentação do FormSubmit oferece `_cc`; `_autoresponse` não funciona em AJAX ou com reCAPTCHA desativado. Não substituir o fluxo por checkout interno.
+
+Status de validação: teste local passou (ocultação das instruções somente após ACK, cópia para o e-mail validado, falhas mantendo o pagamento oculto). Deploy concluído. Nova validação real está bloqueada nesta sessão: GitHub Pages retorna 502 no navegador de testes; chamada direta ao serviço retorna 403. Nenhuma entrega da cópia ao comprador foi confirmada ainda. Não prometer recebimento da cópia antes de conferir um novo envio real e os destinatários no Gmail; não confundir resposta positiva da API com entrega ao destinatário.
