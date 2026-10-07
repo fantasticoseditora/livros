@@ -80,3 +80,11 @@ Verificado no GitHub Pages em 360, 390, 412, 768 e 1440 px: sem rolagem horizont
 No mobile, capa canônica entre a apresentação do livro e o botão de compra. Aviso de início dos envios abaixo do botão. Na página pós-compra, mantido o aviso destacado de envios a partir de 19 de outubro de 2026.
 
 Validação no navegador em 360, 390, 412, 768 e 1440 px, com altura de 700 px: capa carregada na primeira dobra, sem rolagem horizontal, aviso após o botão e cinco CTAs preservados. Nos celulares de 360, 390 e 412 px, a capa também cabe integralmente em uma primeira tela de 640 px, descontado o botão fixo. Pós-compra aberta e aviso de início dos envios confirmado.
+
+## Cadastro de envio — preparação em 07/10/2026
+
+Planilha privada criada: [Cadastros de envio da pré-venda](https://docs.google.com/spreadsheets/d/1ZE_k0SFQ41f2M0Xq1Db68QIY8JS5wHx6vew4YIehBTg/edit). Campos: nome completo, e-mail, WhatsApp opcional, CEP, rua, número, complemento opcional, bairro, cidade e UF. Cadastro não comprova pagamento; conciliar os pedidos com o Mercado Pago.
+
+Página preparada em `/cronicas-mesopotamicas/dados-de-envio/`, com botão do Mercado Pago oculto até a confirmação da gravação. Código e instruções de ativação em [`integracoes/cadastros-envio/`](integracoes/cadastros-envio/README.md). A implantação do Apps Script está bloqueada pelo erro 502 da tela de login Google no navegador da tarefa. Os cinco CTAs continuam no checkout atual enquanto não houver gravação real validada.
+
+Não publicar a planilha nem dados de compradores; não inserir tokens ou credenciais no GitHub. O teste local da integração usa apenas dados sintéticos e serviços Google simulados; não substitui a validação da implantação real.

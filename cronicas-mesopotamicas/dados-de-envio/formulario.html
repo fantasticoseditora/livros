@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <base target="_blank">
+  <title>Dados de envio | Crônicas Mesopotâmicas</title>
+  <link rel="stylesheet" href="https://fantasticoseditora.github.io/livros/cronicas-mesopotamicas/assets/styles.css?v=20261007-6">
+  <link rel="stylesheet" href="https://fantasticoseditora.github.io/livros/cronicas-mesopotamicas/dados-de-envio/formulario.css?v=20261007-1">
+</head>
+<body class="registration-body">
+  <main class="card registration-card">
+    <div class="registration-heading">
+      <img src="https://fantasticoseditora.github.io/livros/cronicas-mesopotamicas/referencias-oficiais/capa-aprovada-cronicas-mesopotamicas.png" width="1060" height="1484" alt="Capa de Crônicas Mesopotâmicas — Deuses Famintos, de Ugo Leão">
+      <div><div class="eyebrow">Crônicas Mesopotâmicas</div><h1 class="section-title">Dados de envio</h1><p>Primeiro, informe onde deseja receber o livro. Depois de salvar os dados, continue para o pagamento no Mercado Pago.</p></div>
+    </div>
+    <p class="notice">Use no pagamento o mesmo e-mail informado aqui para facilitar a identificação do pedido. Os campos com * são obrigatórios.</p>
+    <p id="service-status" class="form-message" role="status" aria-live="polite">O cadastro está sendo preparado. Em caso de dúvida, fale com fantasticoseditora@gmail.com.</p>
+    <form id="shipping-form">
+      <fieldset id="form-fields">
+        <legend>Seu contato</legend>
+        <label>Nome completo *<input name="nome" autocomplete="name" required minlength="3" maxlength="120"></label>
+        <div class="form-grid">
+          <label>E-mail *<input name="email" type="email" autocomplete="email" required maxlength="160"></label>
+          <label>WhatsApp <span class="optional">(opcional)</span><input name="whatsapp" type="tel" autocomplete="tel" maxlength="20" placeholder="DDD + número"></label>
+        </div>
+        <h2 class="form-subtitle">Endereço para entrega</h2>
+        <div class="form-grid">
+          <label>CEP *<input name="cep" inputmode="numeric" autocomplete="postal-code" required pattern="[0-9]{5}-?[0-9]{3}" maxlength="9" placeholder="00000-000" title="Informe os oito números do CEP."></label>
+          <label>Estado (UF) *<select name="uf" autocomplete="address-level1" required><option value="">Selecione</option><option>AC</option><option>AL</option><option>AP</option><option>AM</option><option>BA</option><option>CE</option><option>DF</option><option>ES</option><option>GO</option><option>MA</option><option>MT</option><option>MS</option><option>MG</option><option>PA</option><option>PB</option><option>PR</option><option>PE</option><option>PI</option><option>RJ</option><option>RN</option><option>RS</option><option>RO</option><option>RR</option><option>SC</option><option>SP</option><option>SE</option><option>TO</option></select></label>
+        </div>
+        <label>Rua / avenida *<input name="logradouro" autocomplete="address-line1" required maxlength="160"></label>
+        <div class="form-grid">
+          <label>Número *<input name="numero" required maxlength="20" placeholder="Se não houver, informe S/N"></label>
+          <label>Complemento <span class="optional">(se houver)</span><input name="complemento" autocomplete="address-line2" maxlength="160" placeholder="Apartamento, bloco, casa…"></label>
+        </div>
+        <div class="form-grid">
+          <label>Bairro *<input name="bairro" required maxlength="100"></label>
+          <label>Cidade *<input name="cidade" autocomplete="address-level2" required maxlength="100"></label>
+        </div>
+        <div class="form-trap" aria-hidden="true"><label>Deixe vazio<input name="site" tabindex="-1" autocomplete="off"></label></div>
+        <p class="notice">A Editora Fantásticos usará estes dados para identificar sua compra, organizar a entrega e entrar em contato sobre o pedido. Dúvidas: <a href="mailto:fantasticoseditora@gmail.com">fantasticoseditora@gmail.com</a>.</p>
+        <button id="save-registration" class="cta" type="submit" disabled>SALVAR DADOS E CONTINUAR</button>
+      </fieldset>
+    </form>
+    <div id="registration-success" hidden tabindex="-1">
+      <h2 class="section-title">Dados salvos</h2>
+      <p>Seu endereço foi registrado. Agora conclua a compra no Mercado Pago.</p>
+      <p id="registration-code" class="notice"></p>
+      <a id="payment-link" class="cta" href="https://mpago.la/2rBm8qQ" target="_blank" rel="noopener noreferrer">CONTINUAR PARA O MERCADO PAGO</a>
+      <p class="notice">O pagamento abrirá em outra aba. O cadastro do endereço não confirma o pagamento; acompanhe a confirmação enviada pelo Mercado Pago.</p>
+    </div>
+    <aside class="shipping-notice" aria-label="Envio dos livros da pré-venda"><div class="eyebrow">Envio dos livros</div><p>Os livros comprados na pré-venda serão enviados <strong>a partir de <time datetime="2026-10-19">19 de outubro de 2026</time>.</strong></p></aside>
+    <p class="notice">Frete econômico incluso para todo o Brasil. O prazo de entrega pode variar conforme a região e a modalidade econômica disponível.</p>
+  </main>
+  <script src="https://fantasticoseditora.github.io/livros/cronicas-mesopotamicas/dados-de-envio/formulario.js?v=20261007-1"></script>
+</body>
+</html>

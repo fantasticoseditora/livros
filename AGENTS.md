@@ -15,3 +15,5 @@ Orientação mais recente do editor (07/10/2026): não exibir preço na landing 
 Somente após aprovação editorial explícita atualize o manifesto para `aprovado_para_publicacao` e gere os bônus.
 
 Envio informado pelo editor em 07/10/2026: os livros comprados na pré-venda serão enviados a partir de 19 de outubro de 2026. Destacar essa informação na landing e na página pós-compra. Não transformar essa data de início dos envios em promessa de entrega nessa data.
+
+Cadastro de envio solicitado em 07/10/2026: criar etapa antes do Mercado Pago com nome, e-mail e endereço completo com CEP obrigatórios; WhatsApp e complemento opcionais. Nunca publicar dados dos compradores no repositório. A planilha deve permanecer privada. A página `dados-de-envio/` está preparada, mas depende da implantação do Apps Script conforme `integracoes/cadastros-envio/README.md`. Só encaminhar os cinco CTAs para ela depois de confirmar uma gravação real na planilha. Não tratar carregamento de iframe como confirmação de cadastro. Cadastro não confirma pagamento.
