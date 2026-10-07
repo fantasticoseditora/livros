@@ -1,3 +1,4 @@
+// Aguardando autorização explícita para o FormSubmit; manter o envio desativado.
 // O destino dos CTAs só deve mudar após validar a entrega de um e-mail de teste.
 window.SHIPPING_REGISTRATION = Object.freeze({
   enabled: false,
