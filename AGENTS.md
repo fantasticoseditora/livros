@@ -4,6 +4,8 @@ Antes de editar qualquer página, identidade visual, copy do bônus ou arquivo d
 
 Preserve a capa aprovada e o logo original. Não substitua referências por arquivos externos sem autorização explícita do editor. A landing deve usar a capa diretamente do diretório canônico.
 
+No rodapé, usar `referencias-oficiais/logo-fantasticos-transparente.png` integral, sem máscara circular. Em títulos do livro, preservar palavras inteiras, especialmente Mesopotâmicas; adaptar a fonte ao espaço disponível em vez de quebrar a palavra.
+
 Nunca publique o texto integral do conto, PDF, EPUB ou link editorial de acesso na landing/pós-compra enquanto o conto estiver `provisorio_nao_publicar`.
 
 Dados comerciais: Ugo Leão (sem H), R$ 79,90, frete econômico incluso para todo o Brasil, pré-venda até 19/10/2026 às 23:59:59 de São Paulo. Não invente fatos, depoimentos, vendas ou urgência.

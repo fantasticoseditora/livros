@@ -68,3 +68,7 @@ Verificado no navegador em 360, 390, 412, 768 e 1440 px: sem preço no conteúdo
 ## Início dos envios — 07/10/2026
 
 Aviso destacado nas duas páginas: os livros comprados na pré-venda serão enviados a partir de 19 de outubro de 2026, conforme informação do editor. FAQ atualizado.
+
+## Correção visual mobile — 07/10/2026
+
+Logo integral no rodapé, sem recorte circular ou fundo, derivada tecnicamente da referência original. Título da oferta organizado em linhas completas, com fonte responsiva e sem quebra interna de Mesopotâmicas.

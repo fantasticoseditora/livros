@@ -41,6 +41,13 @@
       "status": "derivacao_tecnica_para_miolo_preto_e_branco",
       "fonte": "logo-fantasticos-original.jpg",
       "observacao": "Conversão técnica para preto e transparência, preservando o desenho e a proporção originais; autorizada nesta tarefa."
+    },
+    "logo_transparente": {
+      "arquivo": "logo-fantasticos-transparente.png",
+      "status": "derivacao_tecnica_para_web",
+      "fonte": "logo-fantasticos-original.jpg",
+      "observacao": "Remoção técnica do fundo e redução proporcional para 512 × 512 px; desenho integral preservado, sem IA ou redesenho. Autorizado pelo editor em 07/10/2026.",
+      "fonte_sha256": "9269d35d4663bcc6af40fb1dd7be9e0ef598d3c01e9ffc7ba984577ea38a3351"
     }
   }
 }

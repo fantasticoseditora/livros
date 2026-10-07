@@ -10,6 +10,7 @@ Antes de alterar layout, identidade visual, capa, logotipo, copy relacionada ao 
 
 - `capa-aprovada-cronicas-mesopotamicas.png` — capa aprovada para referência visual. Não reconstruir, redesenhar, recolorir ou reiluminar com IA.
 - `logo-fantasticos-original.jpg` — arquivo-fonte do selo/logotipo Fantásticos enviado pelo editor. Não reconstruir nem redesenhar. Se for necessário remover o fundo para uso web, fazer apenas remoção técnica de fundo/transparência, preservando o desenho original.
+- `logo-fantasticos-transparente.png` — derivação técnica para o site: fundo removido, desenho integral preservado e resolução de 512 × 512 px. Usar no rodapé sem máscara circular ou recorte.
 - `arte-original-sem-tipografia.png` — arte-base original fornecida antes da aplicação da tipografia. Usar apenas como referência e nunca substituir a capa aprovada sem autorização.
 - `conto-a-epifania-do-escriba-FONTE.md` — ponteiro canônico para o documento do conto no Google Drive. A fonte editorial integral permanece no Drive; o repositório contém somente as entregas finais autorizadas em PDF e EPUB.
 - `manifesto-referencias.json` — status e fontes dos ativos.

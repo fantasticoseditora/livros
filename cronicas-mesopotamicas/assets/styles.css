@@ -15,10 +15,10 @@
 .cta[aria-disabled="true"]{opacity:1;filter:none;cursor:default;pointer-events:auto;box-shadow:none}
 .cta[aria-disabled="true"]:hover{transform:none;filter:none}
 .cover{height:auto;display:block}
-.footer-logo{object-fit:contain;border-radius:50%}
+.footer-logo{display:block;width:128px;max-width:100%;height:auto;margin:0 auto 14px;object-fit:contain;border-radius:0;background:transparent}
 .contact a{overflow-wrap:anywhere;text-underline-offset:3px}
 .card{min-width:0}
-.section-title{overflow-wrap:break-word}
+.section-title{overflow-wrap:normal;word-break:normal;hyphens:none}
 .world{grid-template-columns:repeat(2,minmax(0,1fr))}
 .timebox{min-width:0;flex:1;padding:10px 8px}
 .countdown{gap:8px;flex-wrap:nowrap}
@@ -62,3 +62,6 @@ h1,h2,h3{font-weight:700}
 .shipping-notice p{margin:6px 0 0;font-size:1rem;line-height:1.5}
 .shipping-notice strong{color:var(--gold2)}
 .shipping-notice .notice{font-size:.9rem}
+
+.offer-title{font-size:clamp(1.125rem,5.2vw,2.5rem);line-height:1.2}
+.offer-title span{display:block;white-space:nowrap}
